@@ -1,7 +1,30 @@
-* {
+body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
-.logo-image{
-    background-image: url(./images/logo.png);
+.navbar {
+    width: 100%;
+    background-color: #84150a;
+    overflow: auto;
+  }
+  .navbar a {
+    float: right;
+    text-align: center;
+    padding: 12px;
+    text-decoration: none;
+    font-size: 17px;
+    color: white;
 
-}
+  }
+  .nav a :hover {
+    background-color: #b33c2b;
+  }
+  .nav-background {
+    background-color: #84150a;
+    padding: 20px;
+    text-align: center
+  }
+  .nav-text {
+    color: white;
+    font-size: 2em;
+    text-align: left;
+  }
